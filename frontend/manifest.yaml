@@ -96,7 +96,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: joindevops/frontend:4.0.0
+        image: sujathasetty55/frontend:4.0.0
         volumeMounts:
         - name: nginx-config
           mountPath: /etc/nginx/nginx.conf
